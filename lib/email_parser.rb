@@ -4,7 +4,7 @@
 # or whitespace (' ').
 class EmailParser
   attr_accessor :emails
-  @splitemails = @emails.split
+  @splitemails = emails.split
   def initialize(emails)
     @emails = emails
   end
