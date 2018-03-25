@@ -9,7 +9,7 @@ class EmailParser
     @emails = emails
   end
   def parse
-    
 
+@splitemails.uniq
   end
 end
